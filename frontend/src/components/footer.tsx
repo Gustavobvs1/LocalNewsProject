@@ -8,15 +8,10 @@ export function Footer() {
       <p className="text-zinc-300">
         © 2024 LocalNews. Todos os direitos reservados.
       </p>
-      <div className="flex flex-col items-left pt-2 pb-12 gap-3">
-        <p className="text-zinc-300 text-lg font-bold">Membros do grupo:</p>
-        <ul className="text-zinc-400 flex flex-col gap-1">
-          <li>Gustavo Borges Vasconcelos Silva</li>
-          <li>Abner Ananias Filho</li>
-          <li>Philip Viana Soares</li>
-          <li>Jonatas David Cerqueira da Silva</li>
-          <li>Kaique Araújo de Jesus Silva</li>
-        </ul>
+      <div className="flex flex items-left pt-2 pb-12 gap-3">
+        <p className="text-zinc-300 text-lg font-bold">
+          Criado por Gustavo Borges Vasconcelos Silva
+        </p>
       </div>
     </footer>
   );

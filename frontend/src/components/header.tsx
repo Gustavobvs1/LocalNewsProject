@@ -3,7 +3,7 @@ import Logo from "../assets/logo.png";
 
 export function Header() {
   return (
-    <header className="flex w-full justify-around bg-zinc-300 items-center">
+    <header className="flex w-full justify-around bg-zinc-300 items-center max-sm:text-sm">
       <Link to="/">
         <img src={Logo} alt="Logo da página" className="size-16" />
       </Link>
